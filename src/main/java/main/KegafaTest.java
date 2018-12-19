@@ -1,0 +1,16 @@
+package main;
+
+import wow.Orc;
+import wow.Pers;
+
+public class KegafaTest {
+
+    public static void main(String[] args) {
+        new KegafaTest().run();
+    }
+
+    private void run() {
+        Pers pers1 = new Orc("rogue");
+        System.out.println("Pers1 class: " + pers1.getClassName() + ", race: " + pers1.getRaceName() + ", front: " + pers1.getFrontName());
+    }
+}

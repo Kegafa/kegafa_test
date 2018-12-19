@@ -1,1 +1,0 @@
-# kegafa_test
