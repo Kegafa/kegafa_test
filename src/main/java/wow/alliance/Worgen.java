@@ -1,4 +1,4 @@
-package wow.Aliance;
+package wow.alliance;
 
 import wow.AbstractWOWCharacter;
 

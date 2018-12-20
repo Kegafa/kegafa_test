@@ -1,7 +1,7 @@
 package main;
 
 import wow.*;
-import wow.Horda.Goblin;
+import wow.horde.Goblin;
 
 public class KegafaTest {
 

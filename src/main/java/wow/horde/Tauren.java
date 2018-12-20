@@ -1,4 +1,4 @@
-package wow.Horda;
+package wow.horde;
 
 import wow.AbstractWOWCharacter;
 
