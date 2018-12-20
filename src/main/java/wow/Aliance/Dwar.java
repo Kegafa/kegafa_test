@@ -6,6 +6,6 @@ public class Dwar extends AbstractWOWCharacter {
     public Dwar(String className) {
         super(className);
         raceName = "Dwar";
-        fraction = "Alliance";
+        fractionName = "Alliance";
     }
 }

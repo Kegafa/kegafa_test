@@ -6,6 +6,6 @@ public class BloodElf extends AbstractWOWCharacter {
     public BloodElf(String className) {
         super(className);
         raceName = "BloodElf";
-        fraction = "Horde";
+        fractionName = "Horde";
     }
 }

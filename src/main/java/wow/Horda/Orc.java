@@ -6,6 +6,6 @@ public class Orc extends AbstractWOWCharacter {
     public Orc(String className) {
         super(className);
         raceName = "Orc";
-        fraction = "Horde";
+        fractionName = "Horde";
     }
 }
