@@ -1,11 +1,11 @@
 package wow;
 
-public class PersImpl implements Pers {
+public abstract class AbstractWOWCharacter implements WOWCharacter {
     private String className;
     protected String raceName;
     protected String frontName;
 
-    public PersImpl(String className) {
+    public AbstractWOWCharacter(String className) {
         this.className = className;
     }
 

@@ -1,6 +1,6 @@
 package wow;
 
-public interface Pers {
+public interface WOWCharacter {
     String getClassName();
     String getRaceName();
     String getFrontName();
