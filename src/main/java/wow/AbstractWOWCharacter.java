@@ -3,7 +3,7 @@ package wow;
 public abstract class AbstractWOWCharacter implements WOWCharacter {
     private String className;
     protected String raceName;
-    protected String frontName;
+    protected String fraction;
 
     public AbstractWOWCharacter(String className) {
         this.className = className;
@@ -17,8 +17,8 @@ public abstract class AbstractWOWCharacter implements WOWCharacter {
         return raceName;
     }
 
-    public String getFrontName() {
-        return frontName;
+    public String getFraction() {
+        return fraction;
     }
 
 }

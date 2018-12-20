@@ -1,9 +1,11 @@
-package wow;
+package wow.Aliance;
+
+import wow.AbstractWOWCharacter;
 
 public class Human extends AbstractWOWCharacter {
     public Human(String className) {
         super(className);
         raceName = "Human";
-        frontName = "Alliance";
+        fraction = "Alliance";
     }
 }
