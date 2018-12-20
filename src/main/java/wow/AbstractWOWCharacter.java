@@ -1,6 +1,6 @@
 package wow;
 
-public abstract class AbstractWOWCharacter implements WOWCharacter {
+public class AbstractWOWCharacter implements WOWCharacter {
     private String className;
     protected String raceName;
     protected String fractionName;
