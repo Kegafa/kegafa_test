@@ -1,11 +1,10 @@
 package wow.alliance;
 
-import wow.AbstractWOWCharacter;
-
-public class Worgen extends AbstractWOWCharacter {
+public class Worgen extends Alliance {
     public Worgen(String className) {
         super(className);
         raceName = "Worgen";
         fractionName = "Alliance";
+
     }
 }

@@ -1,11 +1,9 @@
 package wow.alliance;
 
-import wow.AbstractWOWCharacter;
-
-public class Human extends AbstractWOWCharacter {
+public class Human extends Alliance {
     public Human(String className) {
         super(className);
         raceName = "Human";
-        fractionName = "Alliance";
+
     }
 }
