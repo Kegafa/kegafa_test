@@ -11,7 +11,7 @@ public class KegafaTest {
     }
 
     private void run() {
-        WOWCharacter pers1 = new NightElf("rogue");
+        WOWCharacter pers1 = new Dwarf("rogue");
         System.out.println("Pers1 class: " + pers1.getClassName() + ", race: " + pers1.getRaceName() + ", front: " + pers1.getFractionName());
     }
 }
