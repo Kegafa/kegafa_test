@@ -2,9 +2,9 @@ package wow.horde;
 
 import wow.AbstractWOWCharacter;
 
-public class Horde extends AbstractWOWCharacter {
+class Horde extends AbstractWOWCharacter {
 
-    public Horde(String className) {
+    Horde(String className) {
         super(className);
         fractionName = "Horde";
 
