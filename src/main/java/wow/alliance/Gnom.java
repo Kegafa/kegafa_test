@@ -1,12 +1,9 @@
 package wow.alliance;
 
 
-import wow.AbstractWOWCharacter;
-
-public class Gnom extends AbstractWOWCharacter {
+public class Gnom extends AbstractAllianceCharacter {
     public Gnom(String className) {
         super(className);
         raceName = "Gnom";
-        fractionName = "Alliance";
     }
 }

@@ -1,11 +1,9 @@
 package wow.horde;
 
-import wow.AbstractWOWCharacter;
-
-public class BloodElf extends AbstractWOWCharacter {
+public class BloodElf extends AbstractHordeCharacter {
     public BloodElf(String className) {
         super(className);
         raceName = "BloodElf";
-        fractionName = "Horde";
+
     }
 }

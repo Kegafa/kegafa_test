@@ -5,7 +5,7 @@ public abstract class AbstractWOWCharacter implements WOWCharacter {
     protected String raceName;
     protected String fractionName;
 
-    public AbstractWOWCharacter(String className) {
+    public AbstractWOWCharacter (String className) {
         this.className = className;
     }
 

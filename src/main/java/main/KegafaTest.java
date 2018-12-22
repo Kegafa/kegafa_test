@@ -1,7 +1,8 @@
 package main;
 
 import wow.*;
-import wow.horde.Goblin;
+import wow.alliance.*;
+import wow.horde.*;
 
 public class KegafaTest {
 
@@ -10,7 +11,7 @@ public class KegafaTest {
     }
 
     private void run() {
-        WOWCharacter pers1 = new Goblin("rogue");
+        WOWCharacter pers1 = new Dwarf("rogue");
         System.out.println("Pers1 class: " + pers1.getClassName() + ", race: " + pers1.getRaceName() + ", front: " + pers1.getFractionName());
     }
 }
