@@ -6,7 +6,7 @@ public abstract class AbstractHordeCharacter extends AbstractWOWCharacter {
 
     AbstractHordeCharacter(String className) {
         super(className);
-        fractionName = "AbstractHordeCharacter";
+        fractionName = "Horde";
 
     }
 }
