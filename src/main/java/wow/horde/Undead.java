@@ -1,8 +1,10 @@
 package wow.horde;
 
+import wow.Variables;
+
 public class Undead extends AbstractHordeCharacter {
     public Undead(String className) {
         super(className);
-        raceName = "Undead";
+        raceName = Variables.UNDEAD;
     }
 }
